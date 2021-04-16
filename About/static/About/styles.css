@@ -1,3 +1,9 @@
+body {
+  margin: 0;
+  background: #222;
+  font-family: 'Work Sans', sans-sarif;
+  font-weight: 400;
+}
 .nav body {
   margin: 0;
   background: #222;
@@ -133,7 +139,7 @@ img {
   transition: .4s all;
   line-height: 58px;
   cursor: pointer;
-  background: whitesmoke;
+  background: #E9e9e1;
   border-radius: 50%;
 
 }

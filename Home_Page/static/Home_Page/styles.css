@@ -85,29 +85,24 @@ nav a:hover::before {
 /* home text */
 
 
-.content {
-    justify-content: flex-start;
-    flex-direction: column;
-}
 
 .hometext {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding-top: 30px;
+    margin-top: 200px;
+    text-align: center;
 }
-.hometext i {
+.hometext button {
     font-size: 30pt;
     font-family: 'Times New Roman', Times, serif;
-    color:pink;
+    color: palevioletred;
+    text-decoration: none;
+    background-color: #E9e9e1;
+    cursor: pointer;
+    transition-duration: .1s;
 
 }
-.homeheart a {
-    font-size: 400px;
-    font-family: 'Times New Roman', Times, serif;
-    color:pink;
-    text-decoration: none;
-    
+.hometext button:hover {
+    background-color: #e9e9e1b9;
+    color: white;
 }
 
 
@@ -133,7 +128,7 @@ nav a:hover::before {
     transition: .4s all;
     line-height: 58px;
     cursor: pointer;
-    background: whitesmoke;
+    background: #E9e9e1;
     border-radius: 50%;
   
   }

@@ -87,20 +87,30 @@ p {
 }
 
 .gallery {
-margin: 10px 50;
+    text-align: center;
+    padding-top: 30px;
+
 }
+
 
 .gallery img {
     transition: 1s;
-    padding: 15px;
-    width: 200px;
+    padding: 20px;
+    width: 700px;
+    
+
 }
 
 /*figure out how to track along image with mouse hover, like hover over and move around*/
 .gallery img:hover {
 
-    transform: scale(4);
-    cursor:move;
+    transform: scale(1.006);
+}
+
+h1{
+  color:#444;
+  text-align:center;
+  background: powderblue;
 }
 
 
@@ -124,7 +134,7 @@ margin: 10px 50;
     transition: .4s all;
     line-height: 58px;
     cursor: pointer;
-    background: whitesmoke;
+    background: #E9e9e1;
     border-radius: 50%;
   
   }

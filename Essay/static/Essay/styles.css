@@ -127,7 +127,7 @@ p::first-letter {
     transition: .4s all;
     line-height: 58px;
     cursor: pointer;
-    background: whitesmoke;
+    background: #E9e9e1;
     border-radius: 50%;
   
   }

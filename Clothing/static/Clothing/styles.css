@@ -91,7 +91,7 @@ nav a:hover::before {
 table {
     margin-top: 20px;
     margin-right: 20px;
-    width: fit-content;
+    width: 100%;
 }
 table caption{
     color: powderblue;
@@ -101,11 +101,13 @@ table caption{
 table th {
     text-align: left;
     color: pink;
+    font-size: 13pt;
 }
 
 table td {
     color:powderblue;
     text-decoration: none;
+    font-size: 11pt;
 }
 
 td a{
@@ -137,7 +139,7 @@ table, th, td {
     transition: .4s all;
     line-height: 58px;
     cursor: pointer;
-    background: whitesmoke;
+    background: #E9e9e1;
     border-radius: 50%;
   
   }
