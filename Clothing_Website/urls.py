@@ -17,6 +17,8 @@ from django.contrib import admin
 from django.urls import include, path
 
 urlpatterns = [
+    ## you can change the path below to path("", include('webContent.urls')) to make it the main app
+    path('webContent/', include('webContent.urls')),
     path('admin/', admin.site.urls),
     path('About/', include("About.urls")),
     path('Clothing/', include("Clothing.urls")),
