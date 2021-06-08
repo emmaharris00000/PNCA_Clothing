@@ -1,3 +1,37 @@
 {% extends "layout.html" %}
+{% load static %}
 
-<h1>About</h1>
+ {% block content %}
+
+<div class="content">
+    <div class="bio_image">
+        <img src="{% static 'emma.jpg' %}">
+    </div>
+    <div class="About Text"> 
+        <h1>ARTIST BIO</h1>
+            <p>
+                This website was created by Emma Harris for her undergraduate thesis project. It contains three elements that all explore the same line of inquiry, of self actualization through bodily modification, digitally and physically. In the navigation tabs, you will find an essay, 6 drawings, as well as some links to clothing.
+            
+                Clothing: 
+            
+                Included in this website is a list I have compiled of links to clothing for people who have a hard time finding clothing that fits them. The insider knowledge it takes to be able to curate your social presentation through wardrobe can make it feel impossible to look how you want. The links that I have included are clothes that fit my body type.
+            
+                Please feel free to post your own links and categories to expand this list!
+            
+                Essay:
+            
+                 This essay is a detailed investigation into social presentation and social currency, focusing on selfies as the self-actualizing intersection point between digital and physical presentation.
+            
+                Drawings:
+            
+                These drawings are graphite representations of selfies that I have taken. They are all taken in mirrors and drawn as a slowed down reflection into how I perceive myself, and how keeping a digital log of self-imagery actualizes one's self conception.
+            
+                Please read through my essay for a more detailed investigation of these components.
+
+                Emma Harris Bio:
+
+            </p>
+            
+    </div>
+</div>
+ {% endblock %}
